@@ -1,3 +1,9 @@
+// Constants
+
+const apiKey = PropertiesService.getUserProperties().getProperty(`apiKey`) || ""
+const channelWebhookUrl = ""
+const functionToRun = `getPatchNotes`
+
 // Setup
 
 function setupTrigger(){
